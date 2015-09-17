@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--Pennapps Fall 2015, Guardian-->
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400'
+      rel='stylesheet' type='text/css'>
+    <link 
+      href='https://fonts.googleapis.com/css?family=Roboto:400,500,300,100,700'
+      rel='stylesheet' type='text/css'>
+    <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+    <link href='css/style.css' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+    <script src="js/site.js"></script>
+    <title>Guardian</title>
+  </head>
+  <body>
+    <div class="gradientBackground paginationHeader">
+      <span class="guardianText" onclick="window.location='index.html'">Guardian</span>
+      Getting Started
+    </div>
+    <div class="paginationContent">
+      <div id="0">
+        <div class="paginationTitle">
+          Step 1
+        </div>
+        <div class="paginationTitleHelper">
+          Install the IFTTT app from the Play Store
+          <img class="paginationImage" src="img/step1.jpg">
+        </div>
+        <div class="paginationDisplay">
+        </div>
+      </div>
+      <div class="faded" id="1">
+        <div class="paginationTitle">
+          Step 2
+        </div>
+        <div class="paginationTitleHelper">
+          Log into your newly installed IFTTT app.
+          <img class="paginationImage" src="img/step2.jpg">
+        </div>
+        <div class="paginationDisplay">
+        </div>
+      </div>
+      <div class="faded" id="2">
+        <div class="paginationTitle">
+          Step 3
+        </div>
+        <div class="paginationTitleHelper">
+          Add our IFTTT recipe to your account.
+          <img class="paginationImage" src="img/step3.jpg">
+        </div>
+        <div class="paginationDisplay">
+        </div>
+      </div>
+      <div class="faded" id="3">
+        <div class="paginationTitle">
+          That's it!
+        </div>
+        <div class="paginationTitleHelper">
+          <div class="longHelperText">
+            Now <span class="guardianText" style="margin:0">GUARDIAN</span>
+            can keep you safe using location data from IFTTT
+            and crime data from the Philadelphia City Police.
+          </div>
+          <img class="paginationImage" src="img/finished.png">
+        </div>
+        <div class="paginationDisplay">
+        </div>
+      </div>
+    </div>
+    <div class="paginationDots container row">
+      <div class="paginationDotActive paginationDot col-xs-3"
+        onclick="jumpToPage(0);">
+        .
+      </div>
+      <div class="paginationDot col-xs-3" onclick="jumpToPage(1);">
+        .
+      </div>
+      <div class="paginationDot col-xs-3" onclick="jumpToPage(2);">
+        .
+      </div>
+      <div class="paginationDot col-xs-3" onclick="jumpToPage(3);">
+        .
+      </div>
+    </div>
+  </body>
+</html>

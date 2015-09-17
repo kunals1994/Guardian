@@ -1,0 +1,159 @@
+/*
+ * Pennapps Fall 2015, Guardian
+ */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  background-color: #FFFFFF;
+}
+
+.gradientBackground {
+  padding: 25px;
+  /* For Safari 5.1 to 6.0 */
+  background: -webkit-linear-gradient(left, #899cf0 , #89cff0);
+  /* For Opera 11.1 to 12.0 */
+  background: -o-linear-gradient(right, #899cf0, #89cff0);
+  /* For Firefox 3.6 to 15 */
+  background: -moz-linear-gradient(right, #899cf0, #89cff0);
+  /* Standard syntax (must be last) */
+  background: linear-gradient(to right, #899cf0, #89cff0);
+}
+
+.homepageTitle {
+  font-size: 50px;
+  color: #FFFFFF;
+  margin-top: 5vh;
+}
+
+.descriptionText {
+  font-size: 19px;
+  margin-top: 35px;
+  margin-bottom: 15px;
+  color: #FFFFFF;
+  font-weight: 300;
+}
+
+.buttonContainer {
+  text-align: center;
+}
+
+.startButton {
+  position: relative;
+  left: 0;
+  height: 65px;
+  width: 86vw;
+  border: none;
+  background-color: #FFFFFF;
+  font-size: 22px;
+  color: #899cf0;
+  margin-top: 15px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.roundedImage {
+  border-radius: 5px;
+}
+
+img {
+  width: 86vw;
+}
+
+.faded {
+  display: none;
+}
+
+.guardianText {
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  margin-right: 15vw;
+}
+
+.paginationHeader {
+  color: #FFFFFF;
+}
+
+.paginationTitle {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.paginationTitleHelper {
+  text-align: center;
+  font-size: 15px;
+  color: #888888;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.paginationImage {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.longHelperText {
+  margin-bottom: 10px;
+  text-align: left;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.paginationDots {
+  margin-left: 80px;
+  margin-right: 80px;
+  font-size: 100px;
+  position: absolute;
+  top: 450px;
+  color: #CCCCCC;
+}
+
+.paginationDotActive {
+  color: #899cf0;
+  font-weight: 700;
+}
